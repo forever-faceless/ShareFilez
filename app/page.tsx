@@ -1,6 +1,5 @@
 "use client";
 import FileComponent from "@/components/Fileupload";
-import Wave from "react-wavify";
 import { Midground } from "@/components/Midground";
 
 export default function Home() {

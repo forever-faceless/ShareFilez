@@ -3,7 +3,6 @@ import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import App from "next/app";
 import { Dispatch, SetStateAction, useRef, useState } from "react";
 
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { HandBurger } from "./HandBurger";
 

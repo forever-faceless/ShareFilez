@@ -36,7 +36,7 @@ const Model = () => {
         <Button
           type="button"
           onClick={() => router.push(`/receiver?code=${code}`)}
-          className="w-full rounded-lg bg-slate-300 px-6 py-2 text-black font-bold shadow-lg transition duration-300 hover:bg-slate-400"
+          className="w-full rounded-lg bg-slate-300 px-6 py-2 font-bold text-black shadow-lg transition duration-300 hover:bg-slate-400"
         >
           Confirm
         </Button>
