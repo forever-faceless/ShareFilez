@@ -38,7 +38,7 @@ export default function Page() {
 
   useEffect(() => {
     if (socketRef.current) return;
-    const socket = new WebSocket("wss://api.shipfilez.app");
+    const socket = new WebSocket("wss://backend-service-707394683264.us-central1.run.app/");
     socketRef.current = socket;
     socket.onopen = () => {
       setIsConnected(true);

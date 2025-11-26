@@ -203,7 +203,7 @@ const FileShare: React.FC<FileShareProps> = ({ files }) => {
   // WebSocket + signaling setup
   useEffect(() => {
     if (socketRef.current) return;
-    const socket = new WebSocket("wss://api.shipfilez.app");
+    const socket = new WebSocket("wss://backend-service-707394683264.us-central1.run.app/");
     socketRef.current = socket;
 
     socket.onopen = () => {
